@@ -12,10 +12,22 @@
     />
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="search-btn" type="submit">Search</button>
+    </form>
 
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js"></script>
+  <div class="gallery">
+  
+  </div>
+
+  <button type="button" class="load-more-btn is-hidden">Load more</button>
+
+  <script src="./js/index.js"></script>
   </body>
 </html>

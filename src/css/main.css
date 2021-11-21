@@ -1,0 +1,86 @@
+
+  .search-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #6C6EEB;
+    width: 100%;
+  }
+  
+  input {
+    border-radius: 4px;
+    margin-right: 5px;
+    padding: 8px;
+    border: none;
+    width: 270px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .search-btn {
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .load-more-btn {
+    display: block;
+    cursor: pointer;
+    background-color: #6C6EEB;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px;
+    margin: 15px auto 15px auto;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .load-more-btn.is-hidden {
+    display: none;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .photo-card {
+    flex-basis: calc((100% - 130px) / 4);
+    margin-left: 20px;
+    margin-top: 20px;
+    min-width: 300px;
+    box-shadow: 0 1px 2px 0 #9DA2AB;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .gallery_image {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .about {
+    display: flex;
+  }
+  
+  .about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13px;
+  }
+
