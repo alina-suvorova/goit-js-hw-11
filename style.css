@@ -1,0 +1,19 @@
+    body {
+    margin: 0;
+    padding: 0;
+   }
+   .btn {
+    padding: 1px 6px 1px 6px;
+    font-size: 12px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+   }
+   .span {
+    color: #9c9c9c;
+    font-weight: 400;
+    font-family: OpenSansRegular,Arial, sans-serif;
+    margin: 12px;
+    font-size: 15px;
+   }
+   .img {
+    float: left;
+   }
